@@ -3,7 +3,7 @@ import Wheatherapp from '../assets/whetherapp.jpg'
 import Rockpaper from '../assets/rockpaper.jpeg'
 import blogBanner from '../assets/Blog-Banner.jpeg'
 import TodoApp from '../assets/ToDoApp_Banner.png'
-import Authentication from '../assets/AuthSystem.jpg'
+import TeamSpace from '../assets/AuthSystem.jpg'
 
 const projects = [
 
@@ -138,26 +138,75 @@ Key features include:
   category: "Backend"
 },
 
- {
-  id: 6,
-  title: "Authentication System",
-  description: "A secure authentication system with JWT-based login, signup, and role-based access control.",
-  longDescription: `This authentication system provides a secure and scalable solution for managing user access. It supports user registration and login, along with role-based permissions to protect sensitive routes and actions.
+{
+  id: 7,
+  title: "Team Space Collaboration",
+  description: "A collaborative workspace platform with real-time document editing and role-based access control.",
+  longDescription: `TeamSpace is a full-stack social collaboration platform that enables users to create or join workspaces, collaboratively edit documents in real-time, manage team members, and export or print content. It supports authentication, role-based access control (Admin/User), and provides a responsive UI for desktop and mobile.
 
 Key features include:
-- User registration and login functionality
-- JWT token-based authentication
-- Secure password hashing with bcrypt
-- Role-based access control (e.g., Admin, User)
-- Protected routes and middleware authorization
-- RESTful API using Express.js
-- MongoDB for user data management`,
-  technologies: ["Node.js", "Express", "MongoDB", "JWT", "bcrypt","dotenv", "mongoose", "cors", "validator"],
-  image: Authentication,
-  demoUrl: "https://auth-demo.example.com",
-  githubUrl: "https://github.com/johndoe/auth-system",
-  featured: false,
-  category: "Backend"
+- User registration, login, and password recovery
+- Role-based access control (Admin/User)
+- Create and join collaborative workspaces
+- Real-time document editing with auto-save
+- Member management and workspace permissions
+- Export documents as HTML or print
+- Protected routes and state-managed navigation
+- Fully responsive design using Chakra UI
+- Firebase Firestore for real-time data sync and storage`,
+  technologies: ["React.js", "Chakra UI", "Firebase Authentication", "Firestore", "React Router DOM"],
+  image: TeamSpace, // Replace with actual image import or path if used in your app
+  demoUrl: "https://team-space-collaboration.vercel.app/",
+  githubUrl: "https://github.com/Nilakshisute/Team_Space_Collaboration",
+  featured: true,
+  category: "Fullstack"
+}
+,
+{
+  id: 8,
+  title: "Team Space Collaboration",
+  description: "A collaborative workspace platform with real-time document editing and role-based access control.",
+  longDescription: `TeamSpace is a full-stack social collaboration platform that enables users to create or join workspaces, collaboratively edit documents in real-time, manage team members, and export or print content. It supports authentication, role-based access control (Admin/User), and provides a responsive UI for desktop and mobile.
+
+Key features include:
+- User registration, login, and password recovery
+- Role-based access control (Admin/User)
+- Create and join collaborative workspaces
+- Real-time document editing with auto-save
+- Member management and workspace permissions
+- Export documents as HTML or print
+- Protected routes and state-managed navigation
+- Fully responsive design using Chakra UI
+- Firebase Firestore for real-time data sync and storage`,
+  technologies: ["React.js", "Chakra UI", "Firebase Authentication", "Firestore", "React Router DOM"],
+  image: TeamSpace, // Replace with actual image import or path if used in your app
+  demoUrl: "https://team-space-collaboration.vercel.app/",
+  githubUrl: "https://github.com/Nilakshisute/Team_Space_Collaboration",
+  featured: true,
+  category: "Fullstack"
+},
+{
+  id: 9,
+  title: "Team Space Collaboration",
+  description: "A collaborative workspace platform with real-time document editing and role-based access control.",
+  longDescription: `TeamSpace is a full-stack social collaboration platform that enables users to create or join workspaces, collaboratively edit documents in real-time, manage team members, and export or print content. It supports authentication, role-based access control (Admin/User), and provides a responsive UI for desktop and mobile.
+
+Key features include:
+- User registration, login, and password recovery
+- Role-based access control (Admin/User)
+- Create and join collaborative workspaces
+- Real-time document editing with auto-save
+- Member management and workspace permissions
+- Export documents as HTML or print
+- Protected routes and state-managed navigation
+- Fully responsive design using Chakra UI
+- Firebase Firestore for real-time data sync and storage`,
+  technologies: ["React.js", "Chakra UI", "Firebase Authentication", "Firestore", "React Router DOM"],
+  image: TeamSpace, // Replace with actual image import or path if used in your app
+  demoUrl: "https://team-space-collaboration.vercel.app/",
+  githubUrl: "https://github.com/Nilakshisute/Team_Space_Collaboration",
+  featured: true,
+  category: "Fullstack"
 }
 
 ];
