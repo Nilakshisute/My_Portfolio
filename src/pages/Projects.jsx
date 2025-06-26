@@ -29,11 +29,22 @@ const itemVariants = {
 const Projects = () => {
   const { theme } = useContext(ThemeContext);
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeCategory, setActiveCategory] = useState('Frontend');
+  const [activeCategory, setActiveCategory] = useState('Fullstack');
   const [selectedProject, setSelectedProject] = useState(null);
 
   // Get unique categories
-  const categories = [...new Set(projects.map(project => project.category))];
+ const categories = [
+  'Fullstack',
+  'Frontend',
+  'Backend',
+  ...[...new Set(projects.map(project => project.category))]
+    .filter(
+      c =>
+        c !== 'Fullstack' &&
+        c !== 'Frontend' &&
+        c !== 'Backend'
+    )
+];
 
   // Filter projects based on search term and active category
   const filteredProjects = projects.filter(project => {
@@ -147,7 +158,7 @@ const Projects = () => {
                     }`}
                     onClick={() => setActiveCategory(category)}
                   >
-                    {category === 'frontend' ? 'frontend' : category}
+                    {category === 'Fullstack' ? 'Fullstack' : category}
                   </button>
                 ))}
               </div>

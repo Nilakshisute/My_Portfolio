@@ -3,9 +3,10 @@ import PropTypes from 'prop-types';
 
 const SEO = ({ title, description, keywords, author, ogImage, ogUrl }) => {
   // Default values for SEO metadata
-  const defaultTitle = 'Nilakshi Sute | Frontend Developer';
-  const defaultDescription = 'Frontend Developer Portfolio - Showcasing skills, projects, and experience in web development.';
-  const defaultKeywords = 'frontend, developer, portfolio, react, web development, javascript, tailwind css';
+  const defaultTitle = 'Nilakshi Sute | Full Stack Web Developer';
+  const defaultDescription = 'Full Stack Developer Portfolio – Showcasing end-to-end web development skills, MERN stack projects, and professional experience in building scalable web applications.';
+  const defaultKeywords = 'full stack, web developer, portfolio, MERN stack, React, Node.js, Express, MongoDB, JavaScript, TypeScript, Tailwind CSS';
+
   const defaultAuthor = 'Nilakshi Sute';
   const defaultOgImage = '/og-image.jpg'; // Assuming there's an og-image.jpg in the public folder
   const defaultOgUrl = 'https://nilakshisute.com'; // Replace with your actual domain

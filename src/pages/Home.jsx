@@ -19,8 +19,9 @@ const Home = () => {
     <>
       <SEO
         title="Home | Nilakshi Sute - Full Stack Web Developer"
-        description="Welcome to Nilakshi Sute's portfolio. Senior Frontend developer specializing in React, creating responsive, user-friendly web applications with modern tech stack."
-        keywords="frontend developer, react developer, UI developer, javascript expert, typescript, portfolio, nilakshi sute, web development"
+        description="Welcome to Nilakshi Sute's portfolio. Full Stack Web Developer proficient in building scalable, end-to-end web applications using the MERN stack, React, Node.js, MongoDB, and more."
+        keywords="full stack web developer, MERN stack developer, React, Node.js, MongoDB, Express, JavaScript, TypeScript, web development, Nilakshi Sute, portfolio"
+
       />
 
       {/* Fully Responsive Hero Section */}

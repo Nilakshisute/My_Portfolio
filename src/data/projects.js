@@ -171,15 +171,15 @@ Additional features:
     "Hugging Face Transformers"
   ],
   image: socialecho ,// Replace with actual image path
-  demoUrl: "https://your-demo-url.com",
-  githubUrl: "https://github.com/your-username/social-network-platform",
+  demoUrl: "https://social-environment.vercel.app/",
+  githubUrl: "https://github.com/Nilakshisute/Social_Environment",
   featured: true,
   category: "Fullstack"
 }
 
 ,
 {
-  id: 10,
+  id: 8,
   title: "RealTimeChat App",
   description: "A real-time chat app with public rooms, private messaging, and live user status updates.",
   longDescription: `RealTimeChat is a lightweight, browser-based chat application built with Node.js, Express, and Socket.io. It enables users to join chat rooms, participate in global conversations, and send private messages — all in real-time.
@@ -207,8 +207,8 @@ Additional features:
     "Nodemon"
   ],
   image: realtimechat, // Replace with actual image path
-  demoUrl: "https://your-demo-url.com",
-  githubUrl: "https://github.com/your-username/realtime-chat-app",
+  demoUrl: "https://real-time-chat-anyone.vercel.app/",
+  githubUrl: "https://github.com/Nilakshisute/Real-Time-Chat",
   featured: true,
   category: "Fullstack"
 }

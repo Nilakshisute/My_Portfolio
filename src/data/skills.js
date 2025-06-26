@@ -9,39 +9,39 @@ const skills = {
         {
           name: "HTML5",
           level: 95,
-          // experience: "5+ years",
+          experience: "2+ years",
           description: "Semantic HTML, Accessibility, SEO best practices"
         },
         {
           name: "CSS3",
           level: 90,
-          // experience: "5+ years",
+          experience: "2+ years",
           description: "Responsive design, Animations, CSS Grid, Flexbox"
         },
         {
           name: "JavaScript",
           level: 90,
-          // experience: "5+ years",
+          experience: "2+ years",
           description: "ES6+, DOM manipulation, Async/Await, Fetch API"
         },
        
         {
           name: "React",
           level: 95,
-          experience: "4+ years",
+          experience: "1+ years",
           description: "Hooks, Context API, Custom hooks, Performance optimization"
         },
         {
           name: "Redux",
           level: 85,
-          experience: "3+ years",
+          experience: "1+ years",
           description: "State management, Redux Toolkit, Middleware, Thunks"
         },
        
         {
           name: "TailwindCSS",
           level: 90,
-          experience: "3+ years",
+          experience: "1+ years",
           description: "Utility-first CSS, Custom configurations, Responsive design"
         }
       ]
@@ -55,31 +55,31 @@ const skills = {
         {
           name: "Node.js",
           level: 85,
-          experience: "3+ years",
+          experience: "1+ years",
           description: "Express, RESTful APIs, Authentication, Middleware"
         },
         {
           name: "Express",
           level: 85,
-          experience: "3+ years",
+          experience: "1+ years",
           description: "Routing, Middleware, Error handling, API development"
         },
         {
           name: "MongoDB",
           level: 80,
-          experience: "3+ years",
+          experience: "1+ years",
           description: "Schema design, CRUD operations, Aggregation, Indexing"
         },
         {
           name: "Mongoose",
           level: 80,
-          experience: "3+ years",
+          experience: "1+ years",
           description: "Schema validation, Middleware, Query building"
         },
         {
           name: "REST API",
           level: 90,
-          experience: "4+ years",
+          experience: "2+ years",
           description: "API design, Versioning, Documentation, Security"
         },
         
@@ -94,20 +94,20 @@ const skills = {
         {
           name: "Git",
           level: 90,
-          experience: "5+ years",
+          experience: "2+ years",
           description: "Version control, Branching strategies, Collaboration"
         },
         {
           name: "GitHub",
           level: 90,
-          experience: "5+ years",
+          experience: "2+ years",
           description: "Pull requests, Code reviews, Actions, Project management"
         },
         
         {
           name: "Vite",
           level: 85,
-          experience: "2+ years",
+          experience: "1+ years",
           description: "Fast development server, Build optimization, Plugins"
         },
     
