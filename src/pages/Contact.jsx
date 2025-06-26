@@ -158,7 +158,7 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    <div className="flex items-start">
+                    {/* <div className="flex items-start">
                       <div className="flex-shrink-0 mt-1">
                         <Phone className="w-5 h-5 text-blue-600" />
                       </div>
@@ -171,7 +171,7 @@ const Contact = () => {
                           {profile.phone}
                         </a>
                       </div>
-                    </div>
+                    </div> */}
 
                     <div className="flex items-start">
                       <div className="flex-shrink-0 mt-1">
