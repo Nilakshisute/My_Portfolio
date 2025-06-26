@@ -191,6 +191,16 @@ const Home = () => {
                   <ArrowRight size={16} className="hidden sm:inline" />
                   <ArrowRight size={14} className="inline sm:hidden" />
                 </a>
+                {/* <a
+                  href={profile.resume}
+                  className="px-4 sm:px-6 py-2.5 sm:py-3 rounded-full flex items-center justify-center gap-1.5 sm:gap-2 border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span>Resume</span>
+                  <Download size={16} className="hidden sm:inline" />
+                  <Download size={14} className="inline sm:hidden" />
+                </a> */}
                 <a
                   href={profile.resume}
                   className="px-4 sm:px-6 py-2.5 sm:py-3 rounded-full flex items-center justify-center gap-1.5 sm:gap-2 border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 text-sm sm:text-base font-medium transition-all duration-300 hover:scale-105"

@@ -29,24 +29,24 @@ const itemVariants = {
 const Projects = () => {
   const { theme } = useContext(ThemeContext);
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeCategory, setActiveCategory] = useState('Frontend');
   const [selectedProject, setSelectedProject] = useState(null);
 
   // Get unique categories
-  const categories = ['all', ...new Set(projects.map(project => project.category))];
+  const categories = [...new Set(projects.map(project => project.category))];
 
   // Filter projects based on search term and active category
   const filteredProjects = projects.filter(project => {
-    const matchesSearch = searchTerm === '' || 
+    const matchesSearch =
+      searchTerm === '' ||
       project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.technologies.some(tech => tech.toLowerCase().includes(searchTerm.toLowerCase()));
 
-    const matchesCategory = activeCategory === 'all' || project.category === activeCategory;
+    const matchesCategory = project.category === activeCategory;
 
     return matchesSearch && matchesCategory;
   });
-
   // Handle escape key to close modal
   useEffect(() => {
     const handleEsc = (e) => {
@@ -76,7 +76,7 @@ const Projects = () => {
   }, [selectedProject]);
 
   return (
-    <div className="pt-6 pb-12">
+    <div className="pt-10 pb-10">
       <SEO 
         title="Projects"
         description="Explore my portfolio of web development projects. From responsive websites to interactive web applications built with modern technologies."
@@ -147,7 +147,7 @@ const Projects = () => {
                     }`}
                     onClick={() => setActiveCategory(category)}
                   >
-                    {category === 'all' ? 'All' : category}
+                    {category === 'frontend' ? 'frontend' : category}
                   </button>
                 ))}
               </div>

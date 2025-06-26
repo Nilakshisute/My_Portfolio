@@ -74,14 +74,14 @@ const Skills = () => {
     : [];
 
   return (
-    <div className="pt-24 pb-16">
+    <div className="pt-10 pb-10">
       <SEO 
         title="Skills & Expertise"
         description="Discover my technical skills and expertise in web development. From frontend frameworks to backend technologies and design tools."
         keywords="skills, expertise, web development, frontend, backend, react, javascript, programming, nilakshi sute"
       />
       {/* Header Section */}
-      <section className="py-8 bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-gray-800">
+      <section className="py-12 bg-gradient-to-b from-white to-gray-100 dark:from-gray-900 dark:to-gray-800">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <motion.h1 

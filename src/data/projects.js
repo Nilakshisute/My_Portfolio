@@ -4,6 +4,8 @@ import Rockpaper from '../assets/rockpaper.jpeg'
 import blogBanner from '../assets/Blog-Banner.jpeg'
 import TodoApp from '../assets/ToDoApp_Banner.png'
 import TeamSpace from '../assets/AuthSystem.jpg'
+import realtimechat from '../assets/realtimechat.jpg'
+import socialecho from '../assets/socialecho.jpg'
 
 const projects = [
 
@@ -140,51 +142,78 @@ Key features include:
 
 {
   id: 7,
-  title: "Team Space Collaboration",
-  description: "A collaborative workspace platform with real-time document editing and role-based access control.",
-  longDescription: `TeamSpace is a full-stack social collaboration platform that enables users to create or join workspaces, collaboratively edit documents in real-time, manage team members, and export or print content. It supports authentication, role-based access control (Admin/User), and provides a responsive UI for desktop and mobile.
+  title: "Social Network Platform",
+  description: "A MERN-based social media platform with content moderation and context-aware authentication.",
+  longDescription: `A full-featured social networking platform built with the MERN stack. It offers profile creation, post sharing, commenting, liking, and follow/unfollow features. Key highlights include:
 
-Key features include:
-- User registration, login, and password recovery
-- Role-based access control (Admin/User)
-- Create and join collaborative workspaces
-- Real-time document editing with auto-save
-- Member management and workspace permissions
-- Export documents as HTML or print
-- Protected routes and state-managed navigation
-- Fully responsive design using Chakra UI
-- Firebase Firestore for real-time data sync and storage`,
-  technologies: ["React.js", "Chakra UI", "Firebase Authentication", "Firestore", "React Router DOM"],
-  image: TeamSpace, // Replace with actual image import or path if used in your app
-  demoUrl: "https://team-space-collaboration.vercel.app/",
-  githubUrl: "https://github.com/Nilakshisute/Team_Space_Collaboration",
+- **Automated Content Moderation** using Perspective API, TextRazor, and Hugging Face via a Flask-based zero-shot classifier.
+- **Context-Based Authentication** leveraging IP, location, and device data with AES encryption and suspicious login alerts.
+- **User Roles:** Admin, Moderator, and General Users, each with role-specific dashboards and permissions.
+
+Additional features:
+- JWT-based auth and secure device management
+- Email notifications via Nodemailer
+- Media storage with Azure Blob
+- Fully responsive UI with Tailwind CSS`,
+  technologies: [
+    "React.js",
+    "Redux",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Tailwind CSS",
+    "JWT Authentication",
+    "Passport.js",
+    "Nodemailer",
+    "Crypto-js",
+    "Azure Blob Storage",
+    "Flask",
+    "Hugging Face Transformers"
+  ],
+  image: socialecho ,// Replace with actual image path
+  demoUrl: "https://your-demo-url.com",
+  githubUrl: "https://github.com/your-username/social-network-platform",
+  featured: true,
+  category: "Fullstack"
+}
+
+,
+{
+  id: 10,
+  title: "RealTimeChat App",
+  description: "A real-time chat app with public rooms, private messaging, and live user status updates.",
+  longDescription: `RealTimeChat is a lightweight, browser-based chat application built with Node.js, Express, and Socket.io. It enables users to join chat rooms, participate in global conversations, and send private messages — all in real-time.
+
+**Key Features:**
+- Simple username-based authentication
+- Global chat room for public conversations
+- Private one-on-one messaging
+- Real-time message delivery and user status
+- Live active user list
+- Responsive UI for desktop and mobile
+
+**Tech Stack:**
+- Frontend: HTML, CSS, JavaScript
+- Backend: Node.js, Express
+- Real-time: Socket.io
+- Tools: Nodemon`,
+  technologies: [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Node.js",
+    "Express",
+    "Socket.io",
+    "Nodemon"
+  ],
+  image: realtimechat, // Replace with actual image path
+  demoUrl: "https://your-demo-url.com",
+  githubUrl: "https://github.com/your-username/realtime-chat-app",
   featured: true,
   category: "Fullstack"
 }
 ,
-{
-  id: 8,
-  title: "Team Space Collaboration",
-  description: "A collaborative workspace platform with real-time document editing and role-based access control.",
-  longDescription: `TeamSpace is a full-stack social collaboration platform that enables users to create or join workspaces, collaboratively edit documents in real-time, manage team members, and export or print content. It supports authentication, role-based access control (Admin/User), and provides a responsive UI for desktop and mobile.
 
-Key features include:
-- User registration, login, and password recovery
-- Role-based access control (Admin/User)
-- Create and join collaborative workspaces
-- Real-time document editing with auto-save
-- Member management and workspace permissions
-- Export documents as HTML or print
-- Protected routes and state-managed navigation
-- Fully responsive design using Chakra UI
-- Firebase Firestore for real-time data sync and storage`,
-  technologies: ["React.js", "Chakra UI", "Firebase Authentication", "Firestore", "React Router DOM"],
-  image: TeamSpace, // Replace with actual image import or path if used in your app
-  demoUrl: "https://team-space-collaboration.vercel.app/",
-  githubUrl: "https://github.com/Nilakshisute/Team_Space_Collaboration",
-  featured: true,
-  category: "Fullstack"
-},
 {
   id: 9,
   title: "Team Space Collaboration",

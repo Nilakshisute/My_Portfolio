@@ -20,7 +20,7 @@ I'm passionate about writing clean, maintainable code, building accessible and s
     codepen: "https://codepen.io/nilakshisute",
   },
   
-  resume: "https://drive.google.com/uc?export=download&id=1aVhnr1gg4pTETtmyFSeWUdBPvnl0vf8t",
+  resume: "https://drive.google.com/file/d/1aLAQkurufKIih582uW4nhvUvUYuUk7TO/view?usp=sharing",
 
   education: [
     {
