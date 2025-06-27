@@ -93,7 +93,7 @@ const Home = () => {
                   />
 
                   <img
-                    src="https://ik.imagekit.io/cyber/WhatsApp%20Image%202025-06-15%20at%2023.33.17_ce316ead.jpg?updatedAt=1750010746629"
+                    src="https://ik.imagekit.io/dvy9mtcrba/nilakshi_phto.jpg?updatedAt=1751025161702"
                     alt="Nilakshi Sute"
                     className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
                   />

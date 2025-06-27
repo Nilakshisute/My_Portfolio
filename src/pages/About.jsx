@@ -49,7 +49,7 @@ const About = () => {
       <section className="py-0 bg-white dark:bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
-            
+
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -61,7 +61,7 @@ const About = () => {
                 <div className="md:col-span-1">
                   <div className="bg-gray-100 dark:bg-gray-800 rounded-lg overflow-hidden">
                     <img
-                      src="https://ik.imagekit.io/cyber/WhatsApp%20Image%202025-06-15%20at%2023.33.17_ce316ead.jpg?updatedAt=1750010746629"
+                      src="https://ik.imagekit.io/dvy9mtcrba/nilakshi_phto.jpg?updatedAt=1751025161702"
                       alt={profile.name}
                       className="w-full h-auto"
                     />
@@ -96,7 +96,7 @@ const About = () => {
 
                   <div className="flex flex-wrap gap-4">
                     <a href='#contact'
-                      
+
                       className="btn btn-primary flex items-center gap-2"
                     >
                       Contact Me <ArrowRight size={18} />
@@ -193,7 +193,7 @@ const About = () => {
           </div>
         </div>
       </section>
-     
+
 
 
       {/* <section className="py-16 bg-white dark:bg-gray-900">

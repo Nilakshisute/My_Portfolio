@@ -29,11 +29,12 @@ const itemVariants = {
 const Projects = () => {
   const { theme } = useContext(ThemeContext);
   const [searchTerm, setSearchTerm] = useState('');
-  const [activeCategory, setActiveCategory] = useState('Fullstack');
+  const [activeCategory, setActiveCategory] = useState('All');
   const [selectedProject, setSelectedProject] = useState(null);
 
   // Get unique categories
  const categories = [
+  'All',
   'Fullstack',
   'Frontend',
   'Backend',
@@ -54,10 +55,13 @@ const Projects = () => {
       project.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
       project.technologies.some(tech => tech.toLowerCase().includes(searchTerm.toLowerCase()));
 
-    const matchesCategory = project.category === activeCategory;
+    // Show all projects if 'All' is selected, otherwise filter by category
+    const matchesCategory =
+      activeCategory === 'All' || project.category === activeCategory;
 
     return matchesSearch && matchesCategory;
   });
+  
   // Handle escape key to close modal
   useEffect(() => {
     const handleEsc = (e) => {
